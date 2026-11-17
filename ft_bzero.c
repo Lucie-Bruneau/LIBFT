@@ -6,13 +6,14 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 18:35:31 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:47:53 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 14:27:11 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
 #include "libft.h"
+#include <string.h>
 
 void	ft_bzero(void *s, size_t n)
 {

@@ -6,13 +6,14 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 17:17:55 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:50:03 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 14:27:46 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
 #include "libft.h"
+#include <string.h>
 
 char	*ft_strnstr(const char *hay, const char *ndl, size_t len)
 {

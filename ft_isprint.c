@@ -6,13 +6,12 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 12:02:05 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:48:45 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 18:43:26 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
 #include "libft.h"
+#include <string.h>
 
 int	ft_isprint(int ch)
 {
@@ -20,7 +19,6 @@ int	ft_isprint(int ch)
 		return (1);
 	else
 		return (0);
-
 }
 
 /*int main()

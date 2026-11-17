@@ -6,7 +6,7 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 17:11:45 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:49:30 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 18:42:40 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,19 +49,6 @@ static	int	size_wrd(const char *str, char c, int i)
 	return (k);
 }
 
-static	void	free_all(char **strs, int n)
-{
-	int	j;
-
-	j = 0;
-	while (j < n)
-	{
-		free(strs[j]);
-		j++;
-	}
-	free(strs);
-}
-
 char	**ft_split(const char *str, char c)
 {
 	char	**strs;
@@ -81,11 +68,6 @@ char	**ft_split(const char *str, char c)
 		if (!str[i])
 			break ;
 		strs[d] = malloc(size_wrd(str, c, i) + 1);
-		if (!strs[d])
-		{
-			free_all(strs, d);
-			return (NULL);
-		}
 		while (str[i] && str[i] != c)
 			strs[d][a++] = str[i++];
 		strs[d++][a] = '\0';

@@ -6,13 +6,14 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 11:41:44 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:49:33 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 14:28:20 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
 #include "libft.h"
+#include <string.h>
 
 char	*ft_strchr(const char *str, int ch)
 {

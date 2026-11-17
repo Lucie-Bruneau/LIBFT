@@ -6,7 +6,7 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 19:48:37 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:48:47 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 14:08:43 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*ft_itoa(int n)
 {
 	char	*str;
 	long	nb;
-	int	len;
+	int		len;
 
 	nb = n;
 	len = ft_len(nb);

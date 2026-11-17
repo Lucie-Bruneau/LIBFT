@@ -6,7 +6,7 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 18:58:14 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/16 17:00:00 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 18:44:44 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,10 @@
 #include "libft.h"
 #include <stdlib.h>
 
-unsigned	int	ft_lstsize(t_list *lst)
+int	ft_lstsize(t_list *lst)
 {
 	t_list	*tmp;
-	int	count;
+	int		count;
 
 	count = 0;
 	tmp = lst;

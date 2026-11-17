@@ -6,7 +6,7 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 17:21:12 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:49:38 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 14:30:10 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "libft.h"
-
-int	ft_strlen(const char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
+#include <string.h>
 
 char	*ft_strdup(const char *s1)
 {

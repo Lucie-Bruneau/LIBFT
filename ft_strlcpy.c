@@ -6,7 +6,7 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 13:45:56 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:49:52 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 18:44:19 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,6 @@
 #include <stdio.h>
 #include <string.h>
 #include "libft.h"
-
-int	ft_strlen(const char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i ++;
-	return (i);
-}
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
@@ -45,18 +35,8 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 
 /*int main()
 {
-	char dst[50];
-	const char src[] = "";
-	printf("%d\n", strlcpy(dst, src, 40));
-
-
-
-
-
-
-
-
-
-
-   	printf("%s\n", dst); 
+ 	char dst[50];
+ 	const char src[] = "";
+ 	printf("%d\n", strlcpy(dst, src, 40))
+ 	printf("%s\n", dst); 
 }*/

@@ -6,7 +6,7 @@
 /*   By: lbruneau <lbruneau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 18:38:03 by lbruneau          #+#    #+#             */
-/*   Updated: 2026/11/14 18:49:05 by lbruneau         ###   ########.fr       */
+/*   Updated: 2026/11/17 15:51:20 by lbruneau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t count)
 {
-	size_t i;
-	
+	size_t	i;
+
 	i = 0;
 	while (i < count)
 	{
